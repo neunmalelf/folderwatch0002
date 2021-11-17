@@ -1,0 +1,11 @@
+[package]
+name = "folderwatch0002"
+version = "0.2.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+notify = "4.0.17"
+# time = "0.3.5"
+chrono = "0.4"
