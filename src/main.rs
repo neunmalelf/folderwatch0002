@@ -10,6 +10,7 @@ use chrono::prelude::*;
 const MY_FOLDER_TO_WATCH: &str = "c:/tmp/__test";
 const MY_REFRESH_RATE_FOR_WATCHING_IN_SECONDS: u64 = 5;
 static MY_PROGRAM_NAME: & str = "folderwatch0002";
+static MY_PROGRAM_VERSION: & str = "0.1.0";
 
 fn iso8601now() -> String {
     // Note formats like "2021-11-18T23-34-60.026490+09:30"
